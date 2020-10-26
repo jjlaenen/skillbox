@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6a03f95.chunk.css",
+    "main.js": "/static/js/main.27cc16c1.chunk.js",
+    "main.js.map": "/static/js/main.27cc16c1.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.876ffdeb.chunk.js": "/static/js/2.876ffdeb.chunk.js",
+    "static/js/2.876ffdeb.chunk.js.map": "/static/js/2.876ffdeb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.db1a85c5e8b3a77e332ac0751d9d2eba.js": "/precache-manifest.db1a85c5e8b3a77e332ac0751d9d2eba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f6a03f95.chunk.css.map": "/static/css/main.f6a03f95.chunk.css.map",
+    "static/media/skillbox.png": "/static/media/skillbox.a07b6d2f.png"
+  }
+}

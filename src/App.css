@@ -1,0 +1,247 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.select{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+  color: rgb(112, 112, 112);
+  background-color: #3a3a3a;
+  padding: 20px 10px 15px;
+  height:70px;
+  color: rgb(24, 24, 24);
+  -webkit-box-shadow: inset 0px -4px 6px 0px rgba(0,0,0,0.11);
+  -moz-box-shadow: inset 0px -4px 6px 0px rgba(0,0,0,0.11);
+  box-shadow: inset 0px -4px 6px 0px rgba(0,0,0,0.11);
+}
+#logo{
+  float:right;
+}
+header h1 {
+  font-size: 25px;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  
+}
+
+.fa {
+  font-size: 22px;
+  transform: translateY(50deg);  
+}
+
+header i {
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-item {
+  border-radius: 2px;
+  margin-right: 10px;
+  background-color: #878787;
+  padding: 18px 18px;
+  margin-bottom: 34px;  
+  width: 30%;
+  margin-top:-50px;
+  -webkit-box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.11);
+-moz-box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.11);
+box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.11);
+font-family: 'Poppins' sans-serif;
+}
+
+.display-item {
+  width: 85%;
+  margin-left: 50px;
+}
+
+
+.add-item form {
+  width: 100%;
+  overflow: hidden;
+}
+
+input {
+  font-size: 14px;
+  color: rgb(24, 24, 24);
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 0;
+  border-bottom: 0.5px solid;
+  border-color: #3a3a3a;
+  display: block;
+  font-family: 'Poppins' sans-serif;
+  width: 100%;  
+
+}
+select {
+  font-size: 14px;
+  color: rgb(24, 24, 24);
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 0.5px solid;
+  border-color: #3a3a3a;
+  font-family: 'Poppins' sans-serif;
+  display: block;
+  width: 100%;  
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+li {
+  width: calc(50% - 50px);
+  list-style-type: none;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 24, 24);
+  margin-bottom: 15px;
+  padding-bottom:10px;
+  -webkit-box-shadow: inset 2px 2px 6px 3px rgba(0,0,0,0.11);
+  -moz-box-shadow: inset 2px 2px 6px 3px rgba(0,0,0,0.11);
+  box-shadow: inset 2px 2px 6px 3px rgba(0,0,0,0.11);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #3a3a3a;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 0.5px solid;
+  border-color: #7adee9;
+  
+}
+h4{
+  padding-left:20px;
+  padding-top:20px;
+}
+.title{
+  color: #fff;
+  border-color:#fff;
+}
+li h3 {
+ 
+  margin: 15px;
+  color: #3a3a3a;
+  font-weight: 300;
+  padding: 15px;
+}
+
+li p {
+  padding: 0px;
+  padding-left: 20px;
+  font-size:14px;
+}
+a {
+  padding: 2px;
+  padding-left: 20px;
+  color: #7adee9;
+  text-decoration: none;
+  font-weight: bold;
+}
+a :hover{
+  border-bottom: 0.5px solid;
+  border-color: #7adee9;
+  transition: 0.3s;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button2 {
+    min-width: 88px;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  margin-right: auto;
+  border: 0;
+  font-weight: bold;
+  min-width: 120px;
+  margin-top:20px;
+  padding-top:20px;
+  color: #fff;
+  font-size: 14px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+  padding: 10px 6px;
+}
+.buttonRemove {
+  min-width: 60px;
+margin-left:10px;
+margin-right: 2px;
+margin-top:20px;
+cursor: pointer;
+margin-left:auto;
+border: 0;
+font-weight: normal;
+min-width: 60px;
+color: #7adee9;
+font-size: 14px;
+font-family: 'Poppins' sans-serif;
+
+}
+.buttonRemove:hover{
+color:#ff0000;
+}
+.button1 {
+    min-width: 88px;
+  padding-right:10px;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  min-width: 120px;
+  color: #c6f9ff;
+  font-size: 14px;
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.25);
+box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.25);
+  padding: 10px 6px;
+}
+.button1:hover {
+background-color: #7adee9;
+color: #fff;
+transition: 0.3s;
+}
+
+.button2:hover {
+  background-color: #878787;
+  color: #7adee9;
+  transition: 0.3s;
+  }
